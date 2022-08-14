@@ -1,0 +1,21 @@
+body {
+    background-image: url('background.jpg');
+   background-repeat: no-repeat;
+   background-size: 4000px 3000px;
+   font-size: 25px;
+}
+  
+  .H{
+    font-size: 35px;
+    text-align: center;
+}
+.con
+{
+    font-size:35px;
+}
+table, th, td {
+    border:2px solid rgb(32, 26, 26);
+    tab-size: 15px;
+    text-align: left;
+   margin-left: 20%;
+  }

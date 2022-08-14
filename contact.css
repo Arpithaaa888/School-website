@@ -1,0 +1,35 @@
+body {
+    background-image: url('background.jpg');
+   background-repeat: no-repeat;
+   background-size: 3000px 1000px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  header{
+      text-align: center;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+   padding-left: 152px;
+   font-size: 25px;
+   
+  }
+  div.row{
+    border-style: solid;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  @media (max-width: 620px) {.column {
+    float: left;
+    width: 34.33%;
+   padding-left: 32px;
+   font-size: 20px;
+  }}
